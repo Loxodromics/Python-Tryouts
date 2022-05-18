@@ -39,6 +39,7 @@ for movie in data['movies']:
 
 # pretty print
 print(json.dumps(data, indent = 4))
+
 # counting items
 print("Num images: " + str(len(data['images'])))
 
