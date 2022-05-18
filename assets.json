@@ -21,5 +21,25 @@
 			"height": 32,
 			"author": "Mary"
 		}
+	],
+	"movies": [
+		{
+			"title": "Movie One",
+			"url": "movie1.mp4",
+			"size": [1920, 1080],
+			"length": 3600
+		},
+		{
+			"title": "Movie Two",
+			"url": "movie2.mov",
+			"size": [1920, 1080],
+			"length": 200
+		},
+		{
+			"title": "Movie Three",
+			"url": "movie3.mkt",
+			"size": [1920, 1080],
+			"length": 197000
+		}
 	]
 }
