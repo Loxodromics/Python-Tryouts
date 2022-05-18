@@ -21,6 +21,9 @@ except OSError as error:
 
 # create symlink
 dst_symlink = "symlinked_file.bla"
-os.symlink(src, dst_symlink)
+try:
+	os.symlink(src, dst_symlink)
+except OSError as error: 
+	print(error)
 
 print ("done")
