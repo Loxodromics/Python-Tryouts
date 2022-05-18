@@ -1,0 +1,25 @@
+{
+	"images": [
+		{
+			"title": "Image One",
+			"url": "image1.jpg",
+			"width": 350,
+			"height": 200,
+			"author": "Peter"
+		},
+		{
+			"title": "Image Two",
+			"url": "image2.jpg",
+			"width": 220,
+			"height": 500,
+			"author": "Paul"
+		},
+		{
+			"title": "Image Three",
+			"url": "image3.png",
+			"width": 32,
+			"height": 32,
+			"author": "Mary"
+		}
+	]
+}
