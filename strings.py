@@ -1,5 +1,6 @@
 import re
 
+# Multiline string
 text_filename = '''The Project Gutenberg eBook of
 Heart of Darkness,
 by Joseph Konrad'''
@@ -16,6 +17,13 @@ if '.txt' not in text_filename:
 text_filename = text_filename.replace('\n', ' ')
 text_filename = text_filename.replace("Konrad", "Conrad")
 
+# open text tile
+with open(text_filename, 'r') as text_file:
+	lines = text_file.read()
+
+str_count = lines.count("Kurtz")  # counting the string "Kurtz" in the given string
+print("The count of 'Kurtz' is", str_count)
+
 # RegEx
 emails = 'aaa@gmail.com bbb@hotmail.com ccc@apple.com'
 print(re.sub('[a-z]*@', 'name@', emails))
@@ -25,10 +33,3 @@ print(t)
 print(type(t))
 print(t[0])
 print(t[1])
-
-# open text tile
-with open(text_filename, 'r') as text_file:
-	lines = text_file.read()
-
-str_count1 = lines.count("Kurtz")  # counting the character “o” in the givenstring
-print("The count of 'Kurtz' is", str_count1)
